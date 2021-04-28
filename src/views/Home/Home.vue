@@ -1,5 +1,11 @@
 <template>
   <div class="home">
+     <nav>
+      <ul>       
+          <li class="button is-primary"><router-link to="/">Home</router-link></li>
+          <li class="button is-primary"><router-link to="/Cadastro">Cadastro </router-link></li>
+      </ul>
+    </nav>
 
     <WelcomeSection />
 
