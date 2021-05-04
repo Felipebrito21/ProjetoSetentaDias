@@ -7,21 +7,21 @@
     <div>
       <form method="POST" action="http://localhost:8080">
         <input
-          class="quadrado"
+          class="conteiner"
           type="text"
           name="nome"
           placeholder="Nome"
         />
 
         <input
-          class="quadrado"
+          class="conteiner"
           type="text"
           name="email"
           placeholder="E-mail"
         />
 
         <textarea
-          class="quadrado"
+          class="conteiner"
           name="mensagem"
           placeholder="Mensagem"
         ></textarea>
@@ -43,7 +43,7 @@
   font-family: Helvetica, sans-serif;
   text-align: center;
 }
-.quadrado {
+.conteiner {
   border-radius: 6px;
   color: black;
   width: 50%;
